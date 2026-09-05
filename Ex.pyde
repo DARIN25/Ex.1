@@ -1,9 +1,10 @@
 def setup():
-    size(500,500)
+    size(500,500) 
     
 def num1(x,y,s):
     line(x,y,x+s,y-s)
     line(x+s,y-s,x+s,y+(s*2))
     
 def draw():
-    num1(230,130,40)
+    num1(230,130,40) #เรียกฟังก์ชันที่สร้างไว้มากำหนดพารามิเตอร์ 
+
