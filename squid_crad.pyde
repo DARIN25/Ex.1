@@ -30,7 +30,7 @@ def nose1(x,y,s):
 def mouth(x,y,s):
     fill(255,182,200)
     ellipse(x-(s/1.6),y+(s/1.3),s/3,s/2)
-    ellipse(x-(s/3.5),y+(s/1.2),s/3,s/2)
+    ellipse(x-(s/3.4),y+(s/1.2),s/3,s/2)
     ellipse(x+(s/1.6),y+(s/1.3),s/3,s/2)
     ellipse(x+(s/2.8),y+(s/1.2),s/3,s/2)
     ellipse(x+(s/30),y+(s/1.2),s/3,s/2)
