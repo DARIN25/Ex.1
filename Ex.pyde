@@ -1,7 +1,7 @@
 def setup():
     size(500,500) 
     
-def num1(x,y,s):
+def num1(x,y,s): #กำหนดพารามิเตอร์ มาสามตัว sคือขนาด
     line(x,y,x+s,y-s)
     line(x+s,y-s,x+s,y+(s*2))
     
